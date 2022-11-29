@@ -11,7 +11,7 @@ from models import storage
 
 
 class HBNBCommand(cmd.Cmd):
-    """A siple command interpreter
+    """A simple command interpreter
 
     Attributes
     ----------
