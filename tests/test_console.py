@@ -31,11 +31,7 @@ class TestConsole(unittest.TestCase):
     @classmethod
     def tearDownClass(self):
         """Remove temporary file (file.json) created as a result"""
-        try:
-            os.remove("file.json")
-        except:
-            pass
-
+        os.remove("file.json")
     """Check for Pep8 style conformance"""
     def test_pep8_console(self):
         """Pep8 console.py"""
